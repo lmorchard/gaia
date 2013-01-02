@@ -1,0 +1,13 @@
+#recent_badge_awards {
+    position: absolute; left: 25%; width: 50%; z-index: 100; opacity: 0.9;
+    background: #000; color: #fff; text-align: center;
+}
+#recent_badge_awards .inner { position: relative; }
+#recent_badge_awards h2 { width: 100%; margin: 1em;}
+#recent_badge_awards .close { position: absolute; padding: 0; margin: 0;
+    top: 0em; right: 0em; font-size: 2em; }
+#recent_badge_awards .badges { padding: 0.5em; }
+#recent_badge_awards .badges .badge { float: left; margin: 0.125em; }
+#recent_badge_awards .badges .badge .image { display: block; }
+#recent_badge_awards .more { clear: both; }
+
